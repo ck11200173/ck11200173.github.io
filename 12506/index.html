@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>0619.12506李悠均</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>  
+    $(document).ready(function(){
+      $("p.p1").click(function(){
+        $(this).hide();
+      });
+    });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#hide").click(function(){
+        $("p.p2").hide();
+      });
+      $("#show").click(function(){
+        $("p.p2").show();
+      });
+    });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script> 
+    $(document).ready(function(){
+      $("#flip").click(function(){
+        $("#panel").slideUp("slow");
+      });
+    });
+    </script>
+<style>
+.p1 {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.p2 {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+#flip{
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>Mission 1</h1>
+<p> 將 web_simple_example(或你自己寫的 html, css)<br>
+    加上至少兩個 jQuery 效果，並使用註明用了哪個效果 </p> 
+
+<p class="p1">1.<br>If you click on me, I will disappear.</p>
+<p class="p2">2.<br>If you click on the "Hide" button, I will disappear;<br>
+    If you click on the "Show" button, I will appear.</p>
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<div id="flip">3.<br>If you click on me, I will slide up the panel</div>
+<div id="panel">我個人認為<br>
+    義大利麵就應該拌 42 號混泥土<br>
+    因為這個螺絲釘的長度很容易直接影響到挖掘機的扭矩<br>
+    <br>
+    你往裡砸的時候<br>
+    一瞬間他就會產生大量的高能蛋白<br>
+    俗稱 UFO，會嚴重影響經濟的發展<br>
+    以至於對整個太平洋和充電器的核污染<br>
+    <br>
+    再或者說<br>
+    透過這勾股定理<br>
+    很容易推斷出人工飼養的東條英機<br>
+    他是可以捕獲野生的三角函數<br>
+    <br>
+    所以說<br>
+    不管這秦始皇的切面是否具有放射性<br>
+    川普的 N 次方是否有沈澱物<br>
+    都不會影響到沃爾瑪跟維爾康在南極匯合<br>
+    </div>
+
+<h1> Item list </h1>
+<ul>
+    <li>item 1</li>
+    <li style="color: blue">item 2 and style</li>
+    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">with link</a></li>
+</ul>
+
+<h1>A special link with a special image</h1>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+    <img src="https://i.imgur.com/PHONkn8.jpeg" width="25%">
+</a>
+
+<p class="large">style from "/style.css"</p>
+
+</body>
+</html>
